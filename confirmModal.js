@@ -1,3 +1,4 @@
+// Shadow dependency - Bootstrap 5 css, Font Awesome css
 import defaults from "defaults";
 import naja from "naja";
 import * as bootstrap from 'bootstrap';
