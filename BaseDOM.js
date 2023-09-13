@@ -106,6 +106,13 @@ class BaseDOM {
             element.classList.add("d-none");
         }
     }
+    _conditionalDisplay(elements, display = true){
+        if(display){
+            this._display(elements);
+        }else{
+            this._hide(elements);
+        }
+    }
 
     el(html){
         const template = document.createElement('template');
